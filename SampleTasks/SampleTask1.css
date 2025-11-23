@@ -1,0 +1,68 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    display:flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.section2{
+    display: grid;
+    margin: 30px;
+}
+.supervisor{
+    width: 300px;
+    height:200px;
+    border-radius: 10px;
+    border:2px solid whitesmoke;
+    padding: 5px;
+    border-top: 5px solid aquamarine;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.teamBuilder{
+    width: 300px;
+    height:200px;
+    border-radius: 10px;
+    border:2px solid whitesmoke;
+    padding: 5px;
+    border-top: 5px solid red;
+    margin-bottom: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.karma{
+    width: 300px;
+    height:200px;
+    border-radius: 10px;
+    border:2px solid whitesmoke;
+    padding: 5px;
+    border-top: 5px solid yellow;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.calculator{
+    width: 300px;
+    height:200px;
+    border-radius: 10px;
+    border:2px solid whitesmoke;
+    padding: 5px;
+    border-top: 5px solid steelblue;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.img{
+    margin-left: 70%;
+    margin-bottom: 2px;
+}
